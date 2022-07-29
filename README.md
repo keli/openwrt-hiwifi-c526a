@@ -13,6 +13,7 @@
 ## 注意事项
 * 我的配置除了SQM和mesh相关，默认没有任何插件
 * 不要用ath10k-ct版的驱动，尤其如果你要用mesh的话。ath10k-ct的项目区有好几个qca4019网速相关的issue至今没有解决。但OpenWRT默认是用ct版，即便在menuconfig里选的qca版，也还是会有漏掉的ct选项，导致用上ct版的firmware-5.bin。**因此，一定要手动去.config里检查ath10k相关的项目，确保带ct的都注释掉。**
+* **最后，即便这些都做了，这两个5G也还是容易丢包，而且用一段就会开始卡的。所以结论就是建议还是不要买极路由X，坑太多了。**
 
 ## 参考
 * https://github.com/coolsnowwolf/lede
