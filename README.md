@@ -6,7 +6,7 @@
 
 补丁基本上就是 https://github.com/coolsnowwolf/lede/pull/6760 这个PR移到官方openwrt了。
 
-替换了低频段5G的固件，个人体验比这个补丁里的要流畅很多。但是高频段目前没什么好的替代。如果做mesh的话建议使用低频段的这个5G。
+替换了低频段5G的固件，个人体验比PR里带的这个的要流畅很多。但是高频段目前没什么好的替代。如果做mesh的话建议使用低频段的这个5G。
 
 这个项目会通过github actions自动克隆官方openwrt并打上补丁，然后按项目带的.config编译。
 
